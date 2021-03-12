@@ -64,6 +64,8 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "sslKey": "~/andrie/ssl-certificat/generate-trusted-ssl-certificate/server.key",
+          "sslCert": "~/andrie/ssl-certificat/generate-trusted-ssl-certificate/server.crt",
           "options": {
             "browserTarget": "wbrtc:build"
           },

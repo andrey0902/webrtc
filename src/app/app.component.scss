@@ -1,0 +1,38 @@
+
+
+video {
+  height: 250px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.btn {
+  &__app {
+    color: white;
+    width: 100%;
+    height: 51px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEBEB;
+    transition: 0.3s cubic-bezier(0.35, 0, 0.25, 1);
+    border: none;
+
+    &.active {
+      background: #9BBDF0;
+    }
+  }
+
+  &__black {
+    color: white;
+    background-color: #323232;
+    font-style: normal;
+  }
+}
+
+.actions {
+  width: 80vw;
+  margin: 0 auto;
+}
